@@ -2,7 +2,7 @@
 def safe_print_list(my_list=[], x=0):
     
     try:
-        my_list=[1,4,5]
+        my_list=[1, 4, 5]
         x = my_list[:5]
         print(x)
 
