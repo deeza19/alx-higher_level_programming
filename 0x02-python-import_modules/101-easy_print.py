@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-raise SystemExit("#pythoniscool")
+import os; os.write(1, b"#pythoniscool\n")
