@@ -1,3 +1,8 @@
 #!/usr/bin/python3
 class Square:
-    pass # An empty block
+    """
+    This is a documentation for Square Class.
+
+    This class does not contain any attributes or method yet.
+    """
+    pass
