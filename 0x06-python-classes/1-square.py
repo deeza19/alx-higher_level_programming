@@ -8,4 +8,4 @@ class Square:
     __size is of no type/value verification.
     """
     def __init__(self, __size):
-      self.__size = __size
+        self.__size = __size
