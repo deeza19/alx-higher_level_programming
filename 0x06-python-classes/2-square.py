@@ -10,7 +10,7 @@ class Square:
 
     def __init__(self, size=0):
         Square.__init__(self, __size)
-        self.size = int(size)
+        self.size = size
         if size != int(size):
             raise SquareValidation(TypeError)
             print("size must be an Integer")
