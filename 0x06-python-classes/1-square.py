@@ -1,8 +1,15 @@
 #!/usr/bin/python3
-class Square:
-    def square_by(self, "0-square.py"):
-        self._size = sizeof("0-square.py")
+"""This is a module.
+"""
 
-    def __init__(self, size):
-        pass
+
+class Square:
+    """Creates a square class with a private instance attribute __size.
+    __size is of no type/value verification.
+    """
+    def __init__(self, __size):
+      self.__size = __size
+
+    def size(self):
+        Square.__init__(self, __size)
         
