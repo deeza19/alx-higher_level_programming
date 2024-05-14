@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-class Square:
-    """
-    This is a documentation for Square Class.
+"""This is the module docstring.
 
-    This class does not contain any attributes or method yet.
-    """
+This module has no functions/classes for performing tasks yet.
+
+"""
+class Square:
     pass
