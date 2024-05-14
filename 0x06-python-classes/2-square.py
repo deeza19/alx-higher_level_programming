@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This is a module with class of square that raises an exception."""
+"""This is a module with class of square that raises an exception
+when validating the size of the square."""
 
 
 class Square:
