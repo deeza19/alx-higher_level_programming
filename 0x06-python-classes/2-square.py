@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This a module with class of square and SquareValidation
+"""This is a module with class of square and SquareValidation
 that raises an exception."""
 
 
@@ -16,10 +16,9 @@ class SquareValidation(Exception):
         self.size = size
     try:
         self.size = int(size)
-        if size not int:
+        if size != int(size):
             raise SquareValidation(TypeError)
             print("size must be an Integer")
         if size < 0:
             raise SquareValidation(ValueError)
             print("size must be >= 0")
-        
