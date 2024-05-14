@@ -7,6 +7,9 @@ class Square:
     """Created a class square with private instance attribute size."""
     def __init__(self, __size):
         self.__size = __size
+
+    def __init__(self, size=0):
+        Square.__init__(self, __size)
         self.size = int(size)
         if size != int(size):
             raise SquareValidation(TypeError)
