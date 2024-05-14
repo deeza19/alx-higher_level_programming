@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""This a module with class of square and SquareValidation.
-
-"""
+"""This a module with class of square and SquareValidation."""
 
 
 class Square:
