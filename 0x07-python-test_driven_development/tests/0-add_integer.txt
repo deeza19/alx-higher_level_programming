@@ -1,0 +1,9 @@
+import unittest
+from 0-add_integer import add
+
+
+class TestAddIntegers(unittest.TestCase):
+    def test_add(self):
+        #Test areas when a > 0 & b < 0
+        self.assert(add_integer(100, -2)
+        self.assertRaises(TypeError, add_integer, 90, -5)
