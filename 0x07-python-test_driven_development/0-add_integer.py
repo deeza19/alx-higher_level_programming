@@ -3,6 +3,7 @@
 
 
 def add_integer(a, b=98):
+    """A function that adds two integers"""
     if type(a, b) not in [int, float]:
         raise TypeError("a must be an integer") or ("b must be an integer")
     
