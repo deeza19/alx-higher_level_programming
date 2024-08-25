@@ -7,7 +7,7 @@ def safe_print_list(my_list=[], x=0):
             count +=  1
         for num in my_list[:x]:
             if x > count:
-                return count
+                print(num, end="")
             else:
                 print(num, end="")
         print()
