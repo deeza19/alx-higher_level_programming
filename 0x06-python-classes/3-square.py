@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """This is a module.
+It contains 2 classes, and 3 functions.
 """
 
 
