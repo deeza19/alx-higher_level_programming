@@ -5,7 +5,9 @@ It contains 2 classes, and 3 functions.
 
 
 class Square:
-    """Created a square class with private instance attribute"""
+    """
+    Created a square class with private instance attribute"""
+
     def __init__(self, __size):
         """Constructs the private instance attribute size."""
 
@@ -13,6 +15,7 @@ class Square:
 
 class SquareValidation(Exception):
     """A user-defined exception class"""
+
     def __init__(self, size=0):
         """Constructs all neccessary attributes for the square
         object."""
