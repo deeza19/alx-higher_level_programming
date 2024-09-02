@@ -7,11 +7,16 @@ It contains 2 classes, and 3 functions.
 class Square:
     """Created a square class with private instance attribute"""
     def __init__(self, __size):
+        """Constructs the private instance attribute size."""
+
         self.__size == __size
 
 class SquareValidation(Exception):
     """A user-defined exception class"""
     def __init__(self, size=0):
+        """Constructs all neccessary attributes for the square
+        object."""
+
         Square.__init__(self, __size)
         Exception.__init__(self)
         self.size = size
@@ -26,9 +31,10 @@ class SquareValidation(Exception):
             print("size must be >= 0")
 
 def area(self):
+    """Calculates the area of the square."""
     Square.__init__(self, __size)
     SquareValidation.__init__(self, size=0)
     items = self.size
     for item in items:
-        return item**2
+        return item ** 2
 
