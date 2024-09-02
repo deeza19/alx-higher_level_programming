@@ -32,6 +32,7 @@ class SquareValidation(Exception):
 
 def area(self):
     """Calculates the area of the square."""
+
     Square.__init__(self, __size)
     SquareValidation.__init__(self, size=0)
     items = self.size
