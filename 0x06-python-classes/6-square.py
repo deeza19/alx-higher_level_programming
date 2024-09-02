@@ -11,8 +11,8 @@ class Square:
         """A function that initialises the private instance attribute size and
         A function that initialises the private instance position attribute
         of the square class"""
-        self.size = __size
-        self.position = __position
+        self.size = size
+        self.position = position
 
 
     def size(self):
