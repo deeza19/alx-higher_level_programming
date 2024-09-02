@@ -6,5 +6,5 @@ def max_integer(my_list=[]):
             if number > max:
                 max = number
         return max
-    elif my_list = [] or None:
+    elif not my_list or None:
         return None
