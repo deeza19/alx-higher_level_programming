@@ -4,11 +4,16 @@ when validating the size of the square."""
 
 
 class Square:
-    """Created a class square with private instance attribute size."""
+    """A class square with private instance attribute size."""
     def __init__(self, __size):
         self.__size = __size
+        """
+        Constructs all the neccesary attributes for the size of the square."""
 
     def __init__(self, size=0):
+        """
+        Constructs all the neccessary attributes for the square object."""
+
         self.__size = size
         if size != int(size):
             raise TypeError("size must be an integer")
