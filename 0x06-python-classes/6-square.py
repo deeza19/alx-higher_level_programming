@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """This is a module that defines a Sqaure class with 2 private instance
-attribute and 2 public instance method."""
+attribute and 2 public instance method.
+It has a size attribute and a position attribute. Each having individual
+property getters and setters.
+It also contains a public instance method of area and my_print.
+"""
 
 
 class Square:
