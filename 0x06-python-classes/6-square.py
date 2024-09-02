@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This is a module that defines a Sqaure class with 2 private instance
+"""
+This is a module that defines a Sqaure class with 2 private instance
 attribute and 2 public instance method.
 It has a size attribute and a position attribute. Each having individual
 property getters and setters.
@@ -19,11 +20,13 @@ class Square:
         self.position = position
 
 
+    @property
     def size(self):
         """A function that gets the size of the square"""
         return self.__size
 
 
+    @size.setter
     def size(self, value):
         """A function that sets the size of the square"""
         self.value = value
@@ -34,11 +37,13 @@ class Square:
         self.__size = value
 
 
+    @property
     def position(self):
         """a function that gets the position of the square"""
         return self.__position
 
 
+    @position.setter
     def position(self, value):
         """A function that sets the value of the position"""
         self.value = value
