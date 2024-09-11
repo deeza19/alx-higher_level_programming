@@ -1,6 +1,6 @@
 #!/usr/bin/node
 function printMessage (...args) {
-  if (args.length === 0) {
+  if (args.length === None) {
     console.log('No argument');
   } else if (args.length === 1) {
     console.log('Argument found');
