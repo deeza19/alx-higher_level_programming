@@ -10,3 +10,5 @@ function printMessage (...args) {
 }
 
 printMessage();
+printMessage('Hello');
+printMessage('Hello', 42);
